@@ -1,24 +1,24 @@
-.section__text_type_principle {
+.text_type_principle {
   margin: 0;
   padding: 14px 0 14px 0;
   border-bottom: 1px solid #000;
 }
 
-.section__text_type_principle:first-of-type {
+.text_type_principle:first-of-type {
   margin-top: 66px;
 }
 
-.section__text_type_principle:last-of-type {
+.text_type_principle:last-of-type {
   padding-bottom: 0;
   border-bottom: 0;
 }
 
 @media (min-width: 760px) {
-  .section__text_type_principle {
+  .text_type_principle {
     width: 688px;
   }
 
-  .section__text_type_principle:last-of-type {
+  .text_type_principle:last-of-type {
     padding-bottom: 0;
   }
 }

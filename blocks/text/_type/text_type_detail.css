@@ -1,4 +1,4 @@
-.section__text_type_detail {
+.text_type_detail {
   margin: 0;
   font-size: 48px;
   line-height: 56px;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 760px) {
-  .section__text_type_detail {
+  .text_type_detail {
     width: 616px;
     font-size: 122px;
     line-height: 122px;
