@@ -1,4 +1,4 @@
-.section__main-title {
+.main-title {
   margin: 0;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: normal;
@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 760px) {
-  .section__main-title {
+  .main-title {
     font-size: 100px;
     line-height: 110px;
   }
