@@ -1,4 +1,4 @@
-.popup__menu-link {
+.menu-links__item {
   margin: 12px 0 0 0;
   padding: 0;
   display: block;
@@ -10,18 +10,18 @@
   text-decoration: none;
 }
 
-.popup__menu-link:hover {
+.menu-links__item:hover {
   font-weight: 700;
 }
 
 @media (min-width: 760px) {
-  .popup__menu-link {
+  .menu-links__item {
     margin: 0 40px 0 0;
   }
 }
 
 @media (min-width: 1220px) {
-  .popup__menu-link {
+  .menu-links__item {
     margin: 0 0 0 40px;
     padding-top: 8px;
     text-align: right;
