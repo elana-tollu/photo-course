@@ -1,0 +1,26 @@
+.section__subtitle_theme_form {
+  margin: 20px 0 0 0;
+  padding: 20px 0 10px 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 50px;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
+
+.section__subtitle_theme_form:last-of-type {
+  margin-bottom: 200px;
+  padding: 0;
+  border-top: 0;
+}
+
+@media (min-width: 760px) {
+  .section__subtitle_theme_form {
+    margin: 0;
+    padding: 0 0 10px 0;
+    border-top: 0;
+    font-size: 100px;
+    line-height: 100px;
+  }
+}

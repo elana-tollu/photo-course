@@ -1,0 +1,19 @@
+.section {
+  padding: 20px;
+  min-width: 320px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 760px) {
+  .section {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .section {
+    padding: 50px;
+  }
+}

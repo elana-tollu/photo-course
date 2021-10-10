@@ -1,0 +1,19 @@
+.section__subtitle {
+  margin: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.section__subtitle:last-of-type {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 760px) {
+  .section__subtitle {
+    width: 404px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+}

@@ -1,0 +1,22 @@
+.header {
+  padding: 20px;
+  min-width: 320px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #DF2626;
+}
+
+@media (min-width: 760px) {
+  .header {
+    padding: 20px 40px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .header {
+    display: none;
+  }
+}

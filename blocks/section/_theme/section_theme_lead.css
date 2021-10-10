@@ -1,0 +1,9 @@
+.section_theme_lead {
+  background-color: #fff;
+}
+
+@media (min-width: 1140px) {
+  .section_theme_lead {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.popup__menu-links {
+  margin: 12px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+@media (min-width: 760px) {
+  .popup__menu-links {
+    margin: 0;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+  }
+}
