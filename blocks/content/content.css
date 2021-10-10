@@ -1,9 +1,9 @@
-.section__content {
+.content {
   display: none;
 }
 
 @media (min-width: 1140px) {
-  .section__content {
+  .content {
     max-width: 624px;
     display: flex;
     flex-direction: column;
