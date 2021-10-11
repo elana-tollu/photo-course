@@ -13,3 +13,9 @@
     line-height: 110px;
   }
 }
+
+@media (min-width: 1440px) {
+  .main-title {
+    grid-area: title;
+  }
+}

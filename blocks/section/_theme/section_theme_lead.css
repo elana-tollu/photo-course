@@ -2,8 +2,15 @@
   background-color: #fff;
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 1440px) {
   .section_theme_lead {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 642px;
+    grid-template-rows: 220px 1fr 48px;
+    grid-template-areas:
+    "title image"
+    "text image"
+    "button image";
+    gap: 60px;
   }
 }

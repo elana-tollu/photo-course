@@ -25,3 +25,9 @@
     line-height: 28px;
   }
 }
+
+@media (min-width: 1440px) {
+  .button {
+    grid-area: button;
+  }
+}
