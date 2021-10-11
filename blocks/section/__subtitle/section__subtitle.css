@@ -6,10 +6,6 @@
   line-height: 38px;
 }
 
-.section__subtitle:last-of-type {
-  margin-bottom: 60px;
-}
-
 @media (min-width: 760px) {
   .section__subtitle {
     width: 404px;

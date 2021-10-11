@@ -1,0 +1,14 @@
+.reviews {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1440px) {
+  .reviews {
+    grid-area: review;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 80px;
+  }
+}

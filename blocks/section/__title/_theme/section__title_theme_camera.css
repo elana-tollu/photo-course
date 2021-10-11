@@ -11,3 +11,9 @@
     line-height: 28px;
   }
 }
+
+@media (min-width: 1440px) {
+  .section__title_theme_camera {
+    grid-area: title;
+  }
+}

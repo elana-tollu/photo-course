@@ -15,3 +15,11 @@
     padding-bottom: 120px;
   }
 }
+
+@media (min-width: 1440px) {
+  .reviews-title {
+    grid-area: reviews;
+    padding: 0;
+    align-self: end;
+  }
+}

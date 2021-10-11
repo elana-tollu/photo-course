@@ -1,0 +1,10 @@
+.camera-details {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1440px) {
+  .camera-details {
+    grid-area: subtitle;
+  }
+}

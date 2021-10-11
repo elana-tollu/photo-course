@@ -1,0 +1,12 @@
+.text_type_order {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1440px) {
+  .text_type_order {
+    grid-area: text;
+    margin-top: 24px;
+    width: 380px;
+  }
+}

@@ -16,3 +16,10 @@
     padding-bottom: 60px;
   }
 }
+
+@media (min-width: 1440px) {
+  .review {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}

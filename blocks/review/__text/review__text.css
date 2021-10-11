@@ -15,3 +15,9 @@
     line-height: 43px;
   }
 }
+
+@media (min-width: 1440px) {
+  .review__text {
+    padding-top: 130px;
+  }
+}

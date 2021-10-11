@@ -14,3 +14,10 @@
     line-height: 64px;
   }
 }
+
+@media (min-width: 1440px) {
+  .section__subtitle_theme_order {
+    grid-area: subtitle;
+    margin-bottom: 56px;
+  }
+}
