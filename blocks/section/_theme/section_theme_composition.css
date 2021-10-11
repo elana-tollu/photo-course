@@ -1,3 +1,18 @@
 .section_theme_composition {
   background-color:  #FFCE00;
 }
+
+@media (min-width: 1440px) {
+  .section_theme_composition {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 28px 128px 1fr 48px auto;
+    grid-template-areas:
+    "title . image image"
+    "subtitle subtitle image image"
+    "text text image image"
+    "button . image image"
+    "principle principle principle principle";
+    gap: 50px 56px;
+  }
+}

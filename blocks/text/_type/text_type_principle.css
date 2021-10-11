@@ -22,3 +22,15 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1440px) {
+  .text_type_principle {
+    padding: 0 0 0 4px;
+    border-bottom: 0;
+    width: 292px;
+  }
+
+  .text_type_principle:first-of-type {
+    margin-top: 0;
+  }
+}

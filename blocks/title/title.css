@@ -15,3 +15,9 @@
     line-height: 28px;
   }
 }
+
+@media (min-width: 1440px) {
+  .title {
+    grid-area: title;
+  }
+}

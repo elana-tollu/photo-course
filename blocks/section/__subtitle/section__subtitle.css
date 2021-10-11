@@ -17,3 +17,9 @@
     line-height: 64px;
   }
 }
+
+@media (min-width: 1440px) {
+  .section__subtitle {
+    grid-area: subtitle;
+  }
+}
