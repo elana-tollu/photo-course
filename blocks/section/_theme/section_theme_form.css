@@ -1,3 +1,16 @@
 .section_theme_form {
   background-color: #DF2626;
 }
+
+@media (min-width: 1440px) {
+  .section_theme_form {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-template-rows: 105px 1fr 50px ;
+    grid-template-areas:
+    "arrow subtitle"
+    ". subtitle"
+    ". form";
+    gap: 50px;
+  }
+}

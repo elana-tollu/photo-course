@@ -13,9 +13,17 @@
     <header class="header page__section">
       <div class="arrow rotation"></div>
       <button type="button" class="button-menu"></button>
+
+      <nav class="popup">
+        <ul class="menu-links">
+          <li><a href="index.html#композиция" class="menu-links__item">Композиция</a></li>
+          <li><a href="index.html#камера" class="menu-links__item">Камера</a></li>
+          <li><a href="index.html#поиск_заказов" class="menu-links__item">Поиск заказов</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <header class="header header_type_desktop page__section">
+    <!-- <header class="header header_type_desktop page__section">
       <div class="arrow rotation"></div>
       <nav>
         <ul class="menu-links">
@@ -49,7 +57,7 @@
         </ul>
       </nav>
       <button type="button" class="popup__button-close"></button>
-    </div>
+    </div> -->
 
     <main>
       <section class="section section_theme_lead page__section">
@@ -110,9 +118,11 @@
       </section>
 
       <section class="section section_theme_form page__section">
-        <p class="section__subtitle section__subtitle_theme_form">Записаться!</p>
-        <p class="section__subtitle section__subtitle_theme_form">Сейчас!</p>
-
+        <div class="arrow-form"></div>
+        <div class="subtitle-form">
+          <p class="section__subtitle section__subtitle_theme_form">Записаться!</p>
+          <p class="section__subtitle section__subtitle_theme_form">Сейчас!</p>
+        </div>
         <form class="form">
           <input type="email" class="form__email" placeholder="Ваша почта">
           <button type="submit" class="form__button">Записаться!</button>

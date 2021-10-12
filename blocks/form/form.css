@@ -7,3 +7,9 @@
   flex-direction: row;
   border-radius: 8px;
 }
+
+@media (min-width: 1440px) {
+  .form {
+    grid-area: form;
+  }
+}

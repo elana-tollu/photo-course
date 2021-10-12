@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 200px;
   background-color: #DF2626;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
   display: flex;
-  visibility: hidden;
-  opacity: 0;
+  justify-content: center;
+  transform: translate(-100%);
+  transition: transform 1s ease-in-out;
 }

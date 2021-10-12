@@ -3,13 +3,6 @@
   min-width: 280px;
 }
 
-@media (min-width: 1140px) {
-  .section__image {
-    width: 642px;
-    margin: 0;
-  }
-}
-
 @media (min-width: 1440px) {
   .section__image {
     grid-area: image;

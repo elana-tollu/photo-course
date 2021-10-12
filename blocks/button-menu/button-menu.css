@@ -13,4 +13,5 @@
   border-left: 0;
   border-right: 0;
   cursor: pointer;
+  z-index: 5;
 }

@@ -1,0 +1,15 @@
+.arrow-form {
+  background-image: url(../../images/arrow-form.svg);
+  background-size: cover;
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .arrow-form {
+    display: block;
+    align-self: end;
+    width: 129px;
+    height: 95px;
+    grid-area: arrow;
+  }
+}

@@ -1,4 +1,4 @@
-.popup__button-close {
+.button-menu_close {
   margin: 0;
   padding: 0;
   background-image: url(../../../images/close.svg);
@@ -18,6 +18,6 @@
   transition: opacity 1s ease;
 }
 
-.popup__button-close:hover {
+.button-menu_close {
   opacity: 0.6;
 }

@@ -1,3 +1,8 @@
+.composition-text {
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 1440px) {
   .composition-text {
     padding-top: 50px;
