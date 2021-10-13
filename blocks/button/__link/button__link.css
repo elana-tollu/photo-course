@@ -1,0 +1,11 @@
+.button__link {
+  padding: 3px;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  color: #242424;
+}
+
+
+
