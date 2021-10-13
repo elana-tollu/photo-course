@@ -11,8 +11,15 @@
 @media (min-width: 760px) {
   .menu-links {
     margin: 0;
+    padding: 30px 40px;
     flex-direction: row;
     justify-content: start;
     text-align: left;
+  }
+}
+
+@media (min-width: 1220px) {
+  .menu-links {
+    padding: 0;
   }
 }

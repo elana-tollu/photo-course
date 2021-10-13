@@ -15,3 +15,9 @@
   cursor: pointer;
   z-index: 5;
 }
+
+@media (min-width: 1220px) {
+  .button-menu {
+    display: none;
+  }
+}

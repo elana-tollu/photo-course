@@ -11,12 +11,17 @@
 
 @media (min-width: 760px) {
   .header {
-    padding: 20px 40px;
+    padding: 24px 40px;
+    height: 84px;
   }
 }
 
 @media (min-width: 1220px) {
   .header {
-    display: none;
+    padding: 22px 50px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
