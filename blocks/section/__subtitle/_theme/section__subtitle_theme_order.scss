@@ -7,7 +7,7 @@
   line-height: 38px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .section__subtitle_theme_order {
     width: 548px;
     font-size: 64px;
@@ -15,7 +15,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .section__subtitle_theme_order {
     grid-area: subtitle;
     margin-bottom: 56px;

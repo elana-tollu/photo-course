@@ -3,7 +3,7 @@
   color: white;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .section_theme_camera {
     display: grid;
     grid-template-columns: 1fr 642px;

@@ -2,7 +2,7 @@
   background-color: #fff;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .section_theme_order {
     display: grid;
     grid-template-columns: 648px 1fr;

@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .camera-details {
     grid-area: subtitle;
   }

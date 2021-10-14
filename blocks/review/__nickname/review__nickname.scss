@@ -7,7 +7,7 @@
   line-height: 12px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .review__nickname {
     font-size: 14px;
     line-height: 24px;

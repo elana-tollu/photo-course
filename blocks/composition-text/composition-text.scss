@@ -4,13 +4,13 @@
   max-width: 400px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .composition-text {
     width: 400px;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .composition-text {
     padding-top: 50px;
     grid-area: text;

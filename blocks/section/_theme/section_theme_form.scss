@@ -2,7 +2,7 @@
   background-color: #DF2626;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .section_theme_form {
     display: grid;
     grid-template-columns: 130px 1fr;

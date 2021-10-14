@@ -14,7 +14,7 @@
   font-weight: 700;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .menu-links__item {
     margin: 0 40px 0 0;
   }

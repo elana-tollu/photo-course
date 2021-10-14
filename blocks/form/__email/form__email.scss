@@ -12,7 +12,7 @@
   border-radius: 8px 0px 0px 8px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .form__email {
     width: 348px;
     font-size: 14px;

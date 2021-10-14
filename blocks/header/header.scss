@@ -9,7 +9,7 @@
   background: #DF2626;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .header {
     padding: 24px 30px;
     height: 84px;

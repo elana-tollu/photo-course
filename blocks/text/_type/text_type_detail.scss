@@ -5,7 +5,7 @@
   color: #FFFFFF;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .text_type_detail {
     width: 616px;
     font-size: 122px;

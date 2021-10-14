@@ -6,7 +6,7 @@
   line-height: 38px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .section__subtitle {
     width: 404px;
     font-size: 64px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .section__subtitle {
     grid-area: subtitle;
   }

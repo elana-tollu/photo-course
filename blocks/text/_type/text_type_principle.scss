@@ -13,7 +13,7 @@
   border-bottom: 0;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .text_type_principle {
     width: 688px;
   }
@@ -23,7 +23,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .text_type_principle {
     padding: 0 0 0 4px;
     border-bottom: 0;

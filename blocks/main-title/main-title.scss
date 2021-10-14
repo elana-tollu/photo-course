@@ -7,14 +7,14 @@
   color: #000000;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .main-title {
     font-size: 100px;
     line-height: 110px;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .main-title {
     grid-area: title;
   }

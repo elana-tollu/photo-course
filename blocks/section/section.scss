@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .section {
     padding: 40px;
   }

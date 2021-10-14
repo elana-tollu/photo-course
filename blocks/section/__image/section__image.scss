@@ -3,7 +3,7 @@
   min-width: 280px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .section__image {
     margin: 0;
     grid-area: image;

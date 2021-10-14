@@ -9,13 +9,13 @@
   color: #fff;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .footer__copyright  {
     font-size: 15px;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .footer__copyright {
     font-weight: bold;
   }

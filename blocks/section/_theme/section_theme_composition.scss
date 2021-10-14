@@ -2,7 +2,7 @@
   background-color:  #FFCE00;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .section_theme_composition {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

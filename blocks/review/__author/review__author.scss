@@ -7,7 +7,7 @@
   line-height: 20px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .review__author {
     padding-bottom: 10px;
     font-size: 18px;

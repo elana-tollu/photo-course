@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 760px) {
+@media (min-width: $tablet) {
   .button {
     padding: 8px;
     width: 228px;
@@ -28,7 +28,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .button {
     grid-area: button;
   }
