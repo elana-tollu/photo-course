@@ -1,18 +1,18 @@
 @import '../vendor/normalize.css';
 @font-face {
-  src: url(./Inter-Regular.woff) format("woff"), url(./Inter-Regular.woff2) format("woff2");
+  src: url(/vendor/fonts/Inter-Regular.woff) format("woff"), url(/vendor/fonts/Inter-Regular.woff2) format("woff2");
   font-family: Inter;
   font-weight: normal;
 }
 @font-face {
   font-family: Roboto;
   font-weight: normal;
-  src: url(./Roboto-Regular.ttf);
+  src: url(/vendor/fonts/Roboto-Regular.ttf);
 }
 @font-face {
   font-family: Roboto;
   font-weight: bold;
-  src: url(./Roboto-Bold.ttf);
+  src: url(/vendor/fonts/Roboto-Bold.ttf);
 }
 .page {
   margin: 0;
@@ -26,7 +26,6 @@
   justify-content: center;
   min-width: 320px;
   width: 100%;
-  background-color: blanchedalmond;
 }
 
 .page__section {
