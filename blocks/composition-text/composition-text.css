@@ -1,12 +1,18 @@
 .composition-text {
   margin: 0;
   padding: 0;
+  max-width: 400px;
+}
+
+@media (min-width: 760px) {
+  .composition-text {
+    width: 400px;
+  }
 }
 
 @media (min-width: 1440px) {
   .composition-text {
     padding-top: 50px;
-    width: 400px;
     grid-area: text;
   }
 }

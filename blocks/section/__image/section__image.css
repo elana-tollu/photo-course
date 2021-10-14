@@ -5,6 +5,7 @@
 
 @media (min-width: 1440px) {
   .section__image {
+    margin: 0;
     grid-area: image;
   }
 }

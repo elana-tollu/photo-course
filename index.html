@@ -29,8 +29,6 @@
         <img src="images/section1.png" alt="Первый снег в сосновом лесу" class="section__image">
         <p class="text text_type_main">Фотография в&nbsp;природных условиях, уроки по&nbsp;композиции и&nbsp;по&nbsp;пользованию камерой.</p>
         <a href="/Frost_Cifrovaya-fotografiya.pdf" class="button button__link" download="Frost_Cifrovaya-fotografiya">Подробнее</a>
-
-        <!-- <button type="button" class="button">Подробнее</button> -->
       </section>
 
       <section class="section section_theme_composition page__section">
@@ -41,8 +39,11 @@
           <p class="text">Вы&nbsp;изучите гармоничное размещение всех элементов изображения на&nbsp;<span class="text__span-accent">снимке</span>.</p>
           <p class="text">Изучите композицию интуитивную и&nbsp;какие-то определённые законы.</p>
         </div>
-        <button type="button" class="button">Записаться!</button>
-        <div class="principles">
+
+        <div class="button">
+          <a href="index.html#email" class="button__link">Записаться!</a></div>
+
+          <div class="principles">
           <p class="text text_type_principle">Прaвило третей, при котором нужно располагать объекты на&nbsp;пересечениях.</p>
           <p class="text text_type_principle">Простота: убирай всё лишнее и&nbsp;кадрируй!</p>
           <p class="text text_type_principle">Равновесие: уравновесь пятна объекта и&nbsp;фона.</p>
@@ -80,8 +81,11 @@
         <p class="section__subtitle section__subtitle_theme_order">Научим находить заказы!</p>
         <img src="images/section4.png" alt="Крона дерева, сфотографированная снизу" class="section__image">
         <p class="text text_type_order">Мы&nbsp;научим вас искать заказы на&nbsp;всяких фриланс биржах, а&nbsp;когда вы&nbsp;сделаете крутое портфолио, мы&nbsp;поможем найти постоянную работу.</p>
-        <button type="button" class="button">Записаться!</button>
-      </section>
+
+        <div class="button">
+          <a href="index.html#email" class="button__link">Записаться!</a></div>
+
+        </section>
 
       <section class="section section_theme_form page__section">
         <div class="arrow-form"></div>
@@ -90,7 +94,7 @@
           <p class="section__subtitle section__subtitle_theme_form">Сейчас!</p>
         </div>
         <form class="form">
-          <input type="email" class="form__email" placeholder="Ваша почта">
+          <input id="email" type="email" class="form__email" placeholder="Ваша почта">
           <button type="submit" class="form__button">Записаться!</button>
         </form>
       </section>

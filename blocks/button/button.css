@@ -1,5 +1,6 @@
 .button {
   margin: 0;
+  padding: 3px;
   width: 169px;
   height: 40px;
   background: #FFF;
@@ -19,6 +20,7 @@
 
 @media (min-width: 760px) {
   .button {
+    padding: 8px;
     width: 228px;
     height: 48px;
     font-size: 18px;

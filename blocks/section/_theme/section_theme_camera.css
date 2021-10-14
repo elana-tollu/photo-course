@@ -6,14 +6,14 @@
 @media (min-width: 1440px) {
   .section_theme_camera {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 642px;
     grid-template-rows: 28px 1fr 48px auto;
     grid-template-areas:
     "title image"
     "subtitle image"
     "reviews image"
     "review review";
-    gap: 50px 80px;
+    gap: 50px 60px;
   }
 }
 
