@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: $desktop) {
   .menu-links__item {
     margin: 0 0 0 40px;
     padding-top: 8px;

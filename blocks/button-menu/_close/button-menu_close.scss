@@ -29,7 +29,7 @@
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: $desktop) {
   .button-menu_close {
     display: none;
   }
