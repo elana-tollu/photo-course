@@ -11,6 +11,11 @@
 }
 @font-face {
   font-family: Roboto;
+  font-weight: 500;
+  src: url(../vendor/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto;
   font-weight: bold;
   src: url(../vendor/fonts/Roboto-Bold.ttf);
 }
