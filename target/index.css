@@ -59,6 +59,10 @@
   background-color: #000;
 }
 
+.colour-part_theme_composition {
+  background-color: #FFCE00;
+}
+
 .header {
   padding: 20px;
   min-width: 320px;
