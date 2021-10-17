@@ -145,11 +145,11 @@
   width: 32px;
   height: 20px;
   align-self: center;
-  color: primary-inverse;
+  color: #FFF;
   background-color: transparent;
   background-image: url(../images/button-menu.svg);
   background-position: center;
-  border: 3px solid primary-inverse;
+  border: 3px solid #FFF;
   border-top: 3px solid #FFF;
   border-left: 0;
   border-right: 0;
