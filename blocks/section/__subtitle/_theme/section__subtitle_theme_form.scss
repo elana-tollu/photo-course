@@ -19,6 +19,7 @@
   .section__subtitle_theme_form {
     margin: 0;
     padding: 0 0 10px 0;
+    min-width: 572px;
     border-top: 0;
     font-size: 100px;
     line-height: 100px;
@@ -28,6 +29,7 @@
 @media (min-width: $desktop) {
   .section__subtitle_theme_form {
     padding: 0;
+    min-width: 688px;
     font-size: 120px;
     line-height: 120px;
   }
