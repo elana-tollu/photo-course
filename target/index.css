@@ -140,12 +140,12 @@
   width: 32px;
   height: 20px;
   align-self: center;
-  color: #fff;
+  color: primary-inverse;
   background-color: transparent;
   background-image: url(../images/button-menu.svg);
   background-position: center;
-  border: 3px solid #FFFFFF;
-  border-top: 3px solid #FFFFFF;
+  border: 3px solid primary-inverse;
+  border-top: 3px solid #FFF;
   border-left: 0;
   border-right: 0;
   cursor: pointer;
@@ -304,7 +304,7 @@
   }
 }
 .section_theme_lead {
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 @media (min-width: 1440px) {
@@ -331,7 +331,7 @@
 }
 .section_theme_camera {
   background-color: #000;
-  color: white;
+  color: #FFF;
 }
 
 @media (min-width: 1440px) {
@@ -344,7 +344,7 @@
   }
 }
 .section_theme_order {
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 @media (min-width: 1440px) {
@@ -397,7 +397,7 @@
   font-weight: normal;
   font-size: 47px;
   line-height: 56px;
-  color: #000000;
+  color: #000;
 }
 
 @media (min-width: 760px) {
@@ -446,7 +446,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #000000;
+  color: #000;
 }
 
 @media (min-width: 760px) {
@@ -517,7 +517,7 @@
   margin: 0;
   font-size: 48px;
   line-height: 56px;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 @media (min-width: 760px) {
@@ -575,7 +575,7 @@
   line-height: 28px;
   text-decoration: none;
   text-align: center;
-  color: #242424;
+  color: #000;
 }
 
 .button:hover {
@@ -631,7 +631,7 @@
   }
 }
 .section__title_theme_camera {
-  border-top: 1px solid #fff;
+  border-top: 1px solid #FFF;
 }
 
 @media (min-width: 760px) {
@@ -697,8 +697,8 @@
   font-weight: normal;
   font-size: 48px;
   line-height: 50px;
-  color: #fff;
-  border-top: 1px solid #fff;
+  color: #FFF;
+  border-top: 1px solid #FFF;
 }
 
 .section__subtitle_theme_form:last-of-type {
@@ -772,7 +772,7 @@
   padding: 0 0 30px 0;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFF;
 }
 
 .review:last-of-type {
@@ -894,13 +894,13 @@
   margin: 0;
   padding-left: 20px;
   min-width: 107px;
-  background-color: #fff;
+  background-color: #FFF;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: normal;
   font-size: 11px;
   line-height: 24px;
   text-align: left;
-  border: 2px solid #000000;
+  border: 2px solid #000;
   border-left: 0;
   box-sizing: border-box;
   border-radius: 0 8px 8px 0;
@@ -939,7 +939,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #fff;
+  color: #FFF;
 }
 
 @media (min-width: 760px) {
