@@ -55,6 +55,10 @@
   background-color: #DF2626;
 }
 
+.colour-part_theme_camera {
+  background-color: #000;
+}
+
 .header {
   padding: 20px;
   min-width: 320px;
