@@ -368,6 +368,17 @@
     grid-template-areas: "arrow subtitle" ". subtitle" ". form";
     gap: 50px;
   }
+
+  .section_theme_form::before {
+    background-image: url(../images/arrow-form.svg);
+    background-size: cover;
+    display: block;
+    align-self: end;
+    width: 129px;
+    height: 95px;
+    grid-area: arrow;
+    content: "";
+  }
 }
 .content {
   display: none;
@@ -553,6 +564,7 @@
   padding: 3px;
   width: 169px;
   height: 40px;
+  display: block;
   background: #FFF;
   border: 2px solid #000;
   box-sizing: border-box;
@@ -561,6 +573,9 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 28px;
+  text-decoration: none;
+  text-align: center;
+  color: #242424;
 }
 
 .button:hover {
@@ -582,14 +597,6 @@
     grid-area: button;
   }
 }
-.button__link {
-  display: block;
-  box-sizing: border-box;
-  text-decoration: none;
-  text-align: center;
-  color: #242424;
-}
-
 .title {
   margin: 0;
   padding-top: 20px;
@@ -835,21 +842,6 @@
   .review__nickname {
     font-size: 14px;
     line-height: 24px;
-  }
-}
-.arrow-form {
-  background-image: url(../images/arrow-form.svg);
-  background-size: cover;
-  display: none;
-}
-
-@media (min-width: 1440px) {
-  .arrow-form {
-    display: block;
-    align-self: end;
-    width: 129px;
-    height: 95px;
-    grid-area: arrow;
   }
 }
 .subtitle-form {

@@ -13,4 +13,17 @@
     ". form";
     gap: 50px;
   }
+
+  .section_theme_form::before {
+    background-image: url(../images/arrow-form.svg);
+    background-size: cover;
+    display: block;
+    align-self: end;
+    width: 129px;
+    height: 95px;
+    grid-area: arrow;
+    content: "";
+  }
 }
+
+
