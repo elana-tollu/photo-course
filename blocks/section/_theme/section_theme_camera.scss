@@ -1,0 +1,19 @@
+.section_theme_camera {
+  background-color: $primary;
+  color: $primary-inverse;
+}
+
+@media (min-width: $desktop) {
+  .section_theme_camera {
+    display: grid;
+    grid-template-columns: 1fr 642px;
+    grid-template-rows: 28px 1fr 48px auto;
+    grid-template-areas:
+    "title image"
+    "subtitle image"
+    "reviews image"
+    "review review";
+    gap: 50px 60px;
+  }
+}
+

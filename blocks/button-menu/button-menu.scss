@@ -1,0 +1,27 @@
+.button-menu {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 20px;
+  align-self: center;
+  color: $primary-inverse;
+  background-color: transparent;
+  background-image: url(../images/button-menu.svg);
+  background-position: center;
+  border: 3px solid $primary-inverse;
+  border-top: 3px solid $primary-inverse;
+  border-left: 0;
+  border-right: 0;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.button-menu:hover {
+  opacity: 0.6;
+}
+
+@media (min-width: $desktop) {
+  .button-menu {
+    display: none;
+  }
+}

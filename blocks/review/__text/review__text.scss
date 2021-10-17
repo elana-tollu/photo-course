@@ -1,0 +1,23 @@
+.review__text {
+  margin: 0;
+  padding: 30px 0 30px 0;
+  font-family: $deafult-font;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+@media (min-width: $tablet) {
+  .review__text {
+    padding: 60px 0 60px 0;
+    width: 528px;
+    font-size: 43px;
+    line-height: 43px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .review__text {
+    padding-top: 130px;
+  }
+}

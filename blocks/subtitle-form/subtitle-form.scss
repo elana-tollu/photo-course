@@ -1,0 +1,10 @@
+.subtitle-form {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $desktop) {
+  .subtitle-form {
+    grid-area: subtitle;
+  }
+}

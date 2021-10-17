@@ -1,0 +1,14 @@
+@media (min-width: $tablet) {
+  .text_type_main {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .text_type_main {
+    grid-area: text;
+    width: 469px;
+    margin: 0;
+  }
+}

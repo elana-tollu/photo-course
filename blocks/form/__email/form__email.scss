@@ -1,0 +1,21 @@
+.form__email {
+  margin: 0;
+  padding-left: 20px;
+  width: 100%;
+  font-family: $deafult-font;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 24px;
+  color: $primary;
+  border: 2px solid $primary;
+  box-sizing: border-box;
+  border-radius: 8px 0px 0px 8px;
+}
+
+@media (min-width: $tablet) {
+  .form__email {
+    width: 348px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,22 @@
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  min-width: 280px;
+  font-family: $deafult-font;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: $primary-inverse;
+}
+
+@media (min-width: $tablet) {
+  .footer__copyright  {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .footer__copyright {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,21 @@
+.section__subtitle {
+  margin: 0;
+  font-family: $deafult-font;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+@media (min-width: $tablet) {
+  .section__subtitle {
+    width: 404px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .section__subtitle {
+    grid-area: subtitle;
+  }
+}

@@ -1,0 +1,25 @@
+.review {
+  margin: 0;
+  padding: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $primary-inverse;
+}
+
+.review:last-of-type {
+  padding: 0;
+  border-bottom: 0;
+}
+
+@media (min-width: $tablet) {
+  .review {
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .review {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}

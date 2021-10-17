@@ -1,0 +1,29 @@
+.menu-links__item {
+  margin: 12px 0 0 0;
+  padding: 0;
+  display: block;
+  font-family: $deafult-font;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FBFBFB;
+  text-decoration: none;
+}
+
+.menu-links__item:hover {
+  font-weight: 700;
+}
+
+@media (min-width: $tablet) {
+  .menu-links__item {
+    margin: 0 40px 0 0;
+  }
+}
+
+@media (min-width: $desktop) {
+  .menu-links__item {
+    margin: 0 0 0 40px;
+    padding-top: 8px;
+    text-align: right;
+  }
+}

@@ -1,0 +1,39 @@
+.button {
+  margin: 0;
+  padding: 3px;
+  width: 169px;
+  height: 40px;
+  display: block;
+  background: $primary-inverse;
+  border: 2px solid $primary;
+  box-sizing: border-box;
+  border-radius: 9999px;
+  font-family: $deafult-font;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+  text-align: center;
+  color: $primary;
+}
+
+.button:hover {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (min-width: $tablet) {
+  .button {
+    padding: 8px;
+    width: 228px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .button {
+    grid-area: button;
+  }
+}

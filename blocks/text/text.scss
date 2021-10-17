@@ -1,0 +1,19 @@
+.text {
+  margin: 0;
+  padding: 0 0 30px 0;
+  font-family: $deafult-font;
+  color: $primary;
+}
+
+@media (min-width: $tablet) {
+  .text {
+    padding-bottom: 20px;
+    width: 400px;
+  }
+
+  .text:last-of-type {
+    padding-bottom: 60px;
+  }
+}
+
+

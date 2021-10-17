@@ -1,0 +1,36 @@
+.button-menu_close {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/close.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 5;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: opacity 1s ease;
+}
+
+.button-menu_close:hover {
+  opacity: 0.6;
+}
+
+@media (min-width: $tablet) {
+  .button-menu_close {
+    top: 30px;
+    right: 30px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .button-menu_close {
+    display: none;
+  }
+}

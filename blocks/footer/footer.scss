@@ -1,0 +1,17 @@
+.footer {
+  padding: 20px;
+  width: 100%;
+  background-color: $red;
+}
+
+@media (min-width: $tablet) {
+  .footer {
+    padding: 40px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .footer {
+    padding: 36px 50px 50px 50px;
+  }
+}

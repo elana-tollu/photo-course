@@ -1,0 +1,11 @@
+.section__image {
+  margin: 60px 0 60px 0;
+  min-width: 280px;
+}
+
+@media (min-width: $desktop) {
+  .section__image {
+    margin: 0;
+    grid-area: image;
+  }
+}

@@ -1,0 +1,40 @@
+.section__subtitle_theme_form {
+  margin: 20px 0 0 0;
+  padding: 20px 0 10px 0;
+  font-family: $deafult-font;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 50px;
+  color: $primary-inverse;
+  border-top: 1px solid $primary-inverse;
+}
+
+.section__subtitle_theme_form:last-of-type {
+  margin-bottom: 200px;
+  padding: 0;
+  border-top: 0;
+}
+
+@media (min-width: $tablet) {
+  .section__subtitle_theme_form {
+    margin: 0;
+    padding: 0 0 10px 0;
+    min-width: 572px;
+    border-top: 0;
+    font-size: 100px;
+    line-height: 100px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .section__subtitle_theme_form {
+    padding: 0;
+    min-width: 688px;
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  .section__subtitle_theme_form:last-of-type {
+    margin-bottom: 70px;
+  }
+}

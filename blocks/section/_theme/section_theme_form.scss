@@ -1,0 +1,29 @@
+.section_theme_form {
+  background-color: $red;
+}
+
+@media (min-width: $desktop) {
+  .section_theme_form {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-template-rows: 105px 1fr 50px ;
+    grid-template-areas:
+    "arrow subtitle"
+    ". subtitle"
+    ". form";
+    gap: 50px;
+  }
+
+  .section_theme_form::before {
+    background-image: url(../images/arrow-form.svg);
+    background-size: cover;
+    display: block;
+    align-self: end;
+    width: 129px;
+    height: 95px;
+    grid-area: arrow;
+    content: "";
+  }
+}
+
+

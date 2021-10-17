@@ -1,0 +1,16 @@
+.section_theme_lead {
+  background-color: $primary-inverse;
+}
+
+@media (min-width: $desktop) {
+  .section_theme_lead {
+    display: grid;
+    grid-template-columns: 1fr 642px;
+    grid-template-rows: 220px 1fr 48px;
+    grid-template-areas:
+    "title image"
+    "text image"
+    "button image";
+    gap: 60px;
+  }
+}

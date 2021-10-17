@@ -1,0 +1,21 @@
+.main-title {
+  margin: 0;
+  font-family: $deafult-font;
+  font-weight: normal;
+  font-size: 47px;
+  line-height: 56px;
+  color: $primary;
+}
+
+@media (min-width: $tablet) {
+  .main-title {
+    font-size: 100px;
+    line-height: 110px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .main-title {
+    grid-area: title;
+  }
+}
